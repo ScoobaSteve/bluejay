@@ -34,6 +34,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 				<ul class="nav navbar-nav navbar-right">
+				    <li><a href="/gst_calculator">GST</a></li>
 					@if (Auth::guest())
 						<li><a href="/auth/login">Admin Login</a></li>
 					@else

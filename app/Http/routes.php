@@ -15,6 +15,8 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('contact', 'WelcomeController@contact');
 
+Route::get('gst_calculator', 'WelcomeController@gst');
+
 Route::get('home', [
     'as' => 'home_path',
     'uses' => 'HomeController@index'
